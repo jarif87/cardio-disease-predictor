@@ -1,8 +1,8 @@
-# 0====No Heart Disease
-# 1====Heart Disease
-# gunicorn -w 4 -b 0.0.0.0:8000 app:flask_app
+#### 0====No Heart Disease
+#### 1====Heart Disease
+#### gunicorn -w 4 -b 0.0.0.0:8000 app:flask_app
 
-# Please read this carefully for accurate prediction of heart disease.
+#### Please read this carefully for accurate prediction of heart disease.
 
 ***df['heart_disease'] = df['heart_disease'].replace({'Yes': 1, 'No': 0})***
 
@@ -42,7 +42,7 @@
 ***df['diabetic'] = df['diabetic'].replace({'Yes': 1, 'No': 0,"No, borderline diabetes":0,"Yes (during pregnancy)":1})***
 
 
-# Details About requirements.txt
+### Details About requirements.txt
 
 #### Flask==3.0.3: Flask is a popular web framework for Python used for building web applications. This line specifies that the version 3.0.3 of Flask is required. Flask is used for handling HTTP requests, routing, and rendering HTML templates, among other things.
 
@@ -69,7 +69,7 @@ It provides the user interface for interacting with the heart disease prediction
 Input fields, such as age, gender, and medical history, are included to collect necessary data for prediction.
 Upon submission, the form data is sent to the Flask backend for processing.***
 
-# Deployment:
+## Deployment:
 
 ### Render Web Service:
 
